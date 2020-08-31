@@ -1,0 +1,12 @@
+<!-- 继承父级模板 -->
+{{extend './common/lay.html'}}
+<!-- 实现标签占位 -->
+{{block 'title'}}首页{{/block}}
+{{block 'cnt '}}
+<div>详情页</div>
+<br>
+<a href="/detail">详情</a>
+<br>
+<a href="/">返回首页</a>
+
+{{/block}}
